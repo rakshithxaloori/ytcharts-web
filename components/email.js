@@ -1,14 +1,8 @@
 import {
-  Body,
   Button,
   Container,
-  Head,
   Hr,
-  Html,
   Img,
-  Link,
-  Preview,
-  Row,
   Section,
   Text,
 } from "@react-email/components";
@@ -40,14 +34,6 @@ const Logo = () => (
 
 const EmailPreview = ({ message = emailProps.reviewText }) => {
   return (
-    // <Html>
-    //   <Head>
-    //     <title>YCombinator Email</title>
-    //     <meta charSet="utf-8" />
-    //     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    //   </Head>
-    //   <Preview>{emailProps.previewText}</Preview>
-    //   <Body style={main}>
     <Section style={main}>
       <Container style={container}>
         <Logo />
@@ -79,11 +65,8 @@ const EmailPreview = ({ message = emailProps.reviewText }) => {
             View Profile
           </Button>
         </Section>
-        <Hr style={hr} />
       </Container>
     </Section>
-    //   </Body>
-    // </Html>
   );
 };
 

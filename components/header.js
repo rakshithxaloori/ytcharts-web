@@ -9,12 +9,7 @@ const Header = () => {
         position: "relative",
         zIndex: 2,
         width: "100%",
-        boxSizing: "border-box",
-        paddingTop: "2vw",
-        paddingBottom: "2vw",
-        paddingLeft: "4vw",
-        paddingRight: "4vw",
-        pointerEvents: "auto",
+        m: 3,
         display: "flex",
         alignItems: "center",
       }}
