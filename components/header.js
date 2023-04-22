@@ -26,7 +26,7 @@ const Header = () => {
           cursor: "pointer",
         }}
       >
-        ProeliumX
+        Get a Brand Deal
       </Link>
     </Box>
   );

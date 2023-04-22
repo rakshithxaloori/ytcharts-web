@@ -60,7 +60,7 @@ const EmailPreview = ({ message = emailProps.reviewText }) => {
           <Button
             pY={12}
             style={button}
-            //    href="https://proeliumx.com/profile"
+            //    href="https://getabranddeal.com/profile"
           >
             View Profile
           </Button>

@@ -8,7 +8,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>ProeliumX - YouTube Analytics Profile and Brand Emails</title>
+        <title>
+          Get a Brand Deal - Brand Emails & YouTube Analytics Profile
+        </title>
         <meta
           name="description"
           content="A powerful tool that lets YouTubers send high-quality emails with
