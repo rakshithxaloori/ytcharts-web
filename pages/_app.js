@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import Header from "components/header";
+import Layout from "@/components/layout";
 
 import "@/styles/globals.css";
 
@@ -18,8 +18,9 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }
